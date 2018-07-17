@@ -12,6 +12,8 @@
 		369A8F28201DEB7E00CFF67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369A8F26201DEB7E00CFF67A /* Main.storyboard */; };
 		369A8F2A201DEB7E00CFF67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369A8F29201DEB7E00CFF67A /* Assets.xcassets */; };
 		369A8F2D201DEB7E00CFF67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369A8F2B201DEB7E00CFF67A /* LaunchScreen.storyboard */; };
+		369A8F5320319AB100CFF67A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A8F5220319AB100CFF67A /* AboutViewController.swift */; };
+		369A8F552031A77F00CFF67A /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A8F542031A77F00CFF67A /* PersonalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		369A8F29201DEB7E00CFF67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		369A8F2C201DEB7E00CFF67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		369A8F2E201DEB7E00CFF67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369A8F5220319AB100CFF67A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		369A8F542031A77F00CFF67A /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		369A8F16201DEB7E00CFF67A = {
 			isa = PBXGroup;
 			children = (
+				369A8F5220319AB100CFF67A /* AboutViewController.swift */,
+				369A8F542031A77F00CFF67A /* PersonalViewController.swift */,
 				369A8F21201DEB7E00CFF67A /* BullsEye */,
 				369A8F20201DEB7E00CFF67A /* Products */,
 			);
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369A8F5320319AB100CFF67A /* AboutViewController.swift in Sources */,
 				369A8F25201DEB7E00CFF67A /* ViewController.swift in Sources */,
+				369A8F552031A77F00CFF67A /* PersonalViewController.swift in Sources */,
 				369A8F23201DEB7E00CFF67A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U36G94Q8F;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nour.BullsEye;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U36G94Q8F;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nour.BullsEye;
